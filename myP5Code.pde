@@ -11,6 +11,7 @@ draw = function(){
  
   background(255,255,255,0);
   
+  ellipse(218,80,40,40);
 
 
 

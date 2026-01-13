@@ -4,21 +4,29 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-
+var ellipsex=218;
+var ellipsey=80;
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
  
   background(255,255,255,0);
   
-  ellipse(218,80,40,40);
+  
 
+  ellipse(ellipsex,ellipsey,40,40);
+  ellipsex+=1.06;
+  ellipsey+=1.4;
 
-
+  
 
 
   //Show x y values when mousepressed
-  if(mousePressed){showXYPositions();}
+  if(mousePressed){
+    showXYPositions();
+  ellipsex=218;
+  ellipsey=80
+  }
 
 }
 

@@ -11,12 +11,17 @@ var ellipsey=80;
 draw = function(){
  
   background(255,255,255,0);
-  
-  
+  fill(99, 51, 23);
+  rect(450,70,60,200);
+  fill(20, 74, 7)
+  ellipse(480,90,160,140);
+  fill(99, 51, 23);
+  triangle(449,170,450,187,410,162)
 
   ellipse(ellipsex,ellipsey,40,40);
   ellipsex+=1.06;
   ellipsey+=1.4;
+
 
   
 

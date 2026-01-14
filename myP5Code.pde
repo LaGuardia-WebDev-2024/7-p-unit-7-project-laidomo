@@ -18,6 +18,7 @@ draw = function(){
   fill(99, 51, 23);
   triangle(449,170,450,187,410,162)
 
+  fill(253, 255, 191);
   ellipse(ellipsex,ellipsey,40,40);
   ellipsex+=1.06;
   ellipsey+=1.4;
